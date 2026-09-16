@@ -114,34 +114,6 @@ For i = 1 To Platenum
 Next i
 End If
 
-''Create the second workbook
-'Set Template_B = Workbooks.Add
-'Template_B.ActiveSheet.Name = "Transposed data"
-'Set Transposed = Template_B.Sheets("Transposed data")
-'
-''Create basic outline for copying later
-'Transposed.Cells(2, 3).Value = "Ct"
-'With Range(Transposed.Cells(2, 3), Transposed.Cells(2, 2 + Repnum))
-'    .Merge
-'End With
-'Transposed.Cells(3, 1).Value = "Primer"
-'Transposed.Cells(3, 2).Value = "Template"
-'For i = 1 To Repnum
-'    Transposed.Cells(3, 2 + i).Value = i
-'Next i
-'Transposed.Cells(3, 3 + Repnum).Value = "Average Ct"
-'Transposed.Cells(3, 4 + Repnum).Value = "Ct Std Dev"
-'Transposed.Cells(3, 4 + Repnum).Value = "% Positive"
-'
-'SumDataCols = Array("Primer", "Template (Copies/Reaction)", "Average Ct", "Ct Std Dev (LLOQ)", "% positive (LLOD)", "Difference")
-'
-'For i = 0 To 5
-'    Transposed.Cells(3, 6 + i + Repnum).Value = SumDataCols(i)
-'Next i
-'
-'
-'
-'
 
 Template_A.Sheets("Instructions").Activate
 macroWb.Close
