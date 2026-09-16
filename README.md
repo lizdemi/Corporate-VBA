@@ -4,3 +4,6 @@ File name | Office programme | Description
 
 Fig_Tab_Renumber.bas | PPT |
   Will renumber every text box 'figure legend' from the selected slide onwards
+
+384_PrimerVal_Template | XLS | 
+  Will generate a template for 384-well qPCR primer validation, including a marker filter, in previously requested orientation.
